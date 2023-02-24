@@ -1,5 +1,5 @@
-const btnDecrementRef = document.querySelector('button[data-action="decrement"]');
-const btnIncrementRef = document.querySelector('button[data-action="increment"]');
+const BTNdecrementRef = document.querySelector('button[data-action="decrement"]');
+const BTNincrementRef = document.querySelector('button[data-action="increment"]');
 const spanRef = document.getElementById('value');
 
 spanRef.textContent = 0;
@@ -14,5 +14,5 @@ const onIncrementBtnClick = function ()
   spanRef.textContent = Number(spanRef.textContent) + 1;
 };
 
-btnDecrementRef.addEventListener('click', onDecrementBtnClick);
-btnIncrementRef.addEventListener('click', onIncrementBtnClick);
+BTNdecrementRef.addEventListener('click', onDecrementBtnClick);
+BTNincrementRef.addEventListener('click', onIncrementBtnClick); 
